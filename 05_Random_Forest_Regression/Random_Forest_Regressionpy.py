@@ -24,7 +24,7 @@ regressor = RandomForestRegressor(random_state=0,n_estimators = 10)
 regressor.fit(X, y)
 
 
-#Random forest predict atempt
+#Random forest predict attempt
 y_predict_random_forest = regressor.predict([[6.5]])
 
 
